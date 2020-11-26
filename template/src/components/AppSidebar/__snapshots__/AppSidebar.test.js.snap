@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can hide 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="StyledBox-sc-13pk1d4-0 dYebPD Collapsible__AnimatedBox-sc-15kniua-0 hSCcJL"
+  />
+</div>
+`;
+
+exports[`can render 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="StyledBox-sc-13pk1d4-0 dYebPD Collapsible__AnimatedBox-sc-15kniua-0 hSCcJL"
+  />
+</div>
+`;
+
+exports[`can show 1`] = `
+<div>
+  <div
+    aria-hidden="false"
+    class="StyledBox-sc-13pk1d4-0 dYebPD Collapsible__AnimatedBox-sc-15kniua-0 gmfzxr"
+    open=""
+  >
+    <div
+      class="StyledBox-sc-13pk1d4-0 fbVFwI"
+    >
+      <p>
+        Sidebar shown
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`can show large 1`] = `
+<div>
+  <div
+    aria-hidden="false"
+    class="StyledBox-sc-13pk1d4-0 dYebPD Collapsible__AnimatedBox-sc-15kniua-0 gmfzxr"
+    open=""
+  >
+    <div
+      class="StyledBox-sc-13pk1d4-0 fbVFwI"
+    >
+      <p>
+        Large sidebar shown
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`can show small 1`] = `
+<body>
+  <div />
+  <div>
+    <div
+      aria-hidden="false"
+    >
+      <div
+        class="StyledLayer-rmtehz-0 gNIvtm"
+        tabindex="-1"
+      >
+        <div
+          class="StyledLayer__StyledOverlay-rmtehz-1 iconax"
+        />
+        <div
+          class="StyledLayer__StyledContainer-rmtehz-2 icgHnb"
+          data-g-portal-id="0"
+        >
+          <a
+            aria-hidden="true"
+            class="LayerContainer__HiddenAnchor-sc-1srj14c-0 chPKWK"
+            tabindex="-1"
+          />
+          <header
+            class="StyledBox-sc-13pk1d4-0 bUnQxS"
+          >
+            <button
+              aria-label="close sidebar"
+              class="StyledButton-sc-323bzc-0 hiyJPE"
+              type="button"
+            >
+              <svg
+                aria-label="FormClose"
+                class="StyledIcon-ofa7kd-0 dEeaTZ"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,7 L17,17 M7,17 L17,7"
+                  fill="none"
+                  stroke="#000"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+          </header>
+          <div
+            class="StyledBox-sc-13pk1d4-0 kkVWtn"
+          >
+            <p>
+              Small sidebar shown
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

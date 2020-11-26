@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render 1`] = `
+<div>
+  <header
+    class="StyledBox-sc-13pk1d4-0 fCjba"
+    style="z-index: 1;"
+  >
+    <p>
+      Header
+    </p>
+  </header>
+</div>
+`;
