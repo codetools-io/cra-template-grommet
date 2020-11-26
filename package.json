@@ -1,12 +1,27 @@
 {
   "name": "cra-template-grommet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A template for generating Grommet based applications with create-react-app",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codetools-io/cra-template-grommet.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "grommet",
+    "create-react-app",
+    "template"
+  ],
   "author": "Cliff Pyles <cliff@cliffpyles.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codetools-io/cra-template-grommet/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
